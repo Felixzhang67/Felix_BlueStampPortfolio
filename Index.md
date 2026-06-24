@@ -1,5 +1,5 @@
 # Bluestamp Robot Project
-Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
+My Starter project is the Mini Retro Arcade Game. How it works is you turn it on with the red power button which turns on the game. The blue buttons are your controls going up, down, left, and right. 
 
 You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
 ```HTML 
@@ -12,12 +12,6 @@ You should comment out all portions of your portfolio that you have not complete
 | Felix Z. | Army and Navy Academy| Electrical/Mechanical engineering | Incoming Senior
 ![Headstone Image](771FCB59-01D3-44EE-8032-A09428D2C3C2.jpeg)
   
-# Final Milestone
-
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8j-ba-zkg5s?si=UJAjjMzvvjZ_R6CV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
 For your final milestone, explain the outcome of your project. Key details to include are:
 - What you've accomplished since your previous milestone
 - What your biggest challenges and triumphs were at BSE
