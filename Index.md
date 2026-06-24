@@ -9,7 +9,7 @@ You should comment out all portions of your portfolio that you have not complete
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
-| Felix Z. | Army and Navy Academy| Electrical/Mechanical Engineering | Incoming Senior
+| Felix Z. | Army and Navy Academy| Electrical/Mechanical engineering | Incoming Senior
 ![Headstone Image](771FCB59-01D3-44EE-8032-A09428D2C3C2.jpeg)
   
 # Final Milestone
