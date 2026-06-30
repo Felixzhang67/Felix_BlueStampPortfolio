@@ -31,7 +31,7 @@ For your second milestone, explain what you've worked on since your previous mil
 - What has been surprising about the project so far
 - Previous challenges you faced that you overcame
 - What needs to be completed before your final milestone 
-
+-->
 # First Milestone
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
@@ -43,10 +43,11 @@ For your first milestone, describe what your project is and how you plan to buil
 - Technical progress you've made so far
 - Challenges you're facing and solving in your future milestones
 - What your plan is to complete your project
--->
+
 # Starter Milestone
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8j-ba-zkg5s?si=kflLVxAjFd3qh76g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 
 Hi, my name is Felix Zhang. My starter project is the Mini Retro Arcade Game. How it works is you press the red button to turn it on. The blue buttons on the bottom left corner are the up, down, left, and right directions. The green and yellow buttons are there to help with other stuff like pausing and etc. When you turn it on, there are different versions of games similar to tetris that you can play. Some technical challenges I faced were soldering since it was my first time doing it. I was able to figure it out and finish it. 
 
