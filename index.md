@@ -34,15 +34,10 @@ For your second milestone, explain what you've worked on since your previous mil
 -->
 # First Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZyAID4YIRaw?si=O3ZKyHvGhi6gX8Qo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+ Hi, My name is Felix Zhang. This is my first milestone for my mini tank project. I was able to successfully finish building my project and figured out how to build each part of the mini tank. The wires are connected to the main board to the motors, battery, and sensors so when I put the code in they will deliver that command. The tracks are the robots main method of movement and the sensor is able to detect any obstacle. Some challenges I faced is building the bottom half of the robot which are the tracks. I struggled how to put some of the pieces together but was able to figure it out. Another challenge was the eyes, which I took a bit to figure it out and also the placement of the wiring, which was also hard because you have to know which wire goes to where. In my next milestone, I am going to take on the coding for my main project and work on it until it can run properly.
 
-For your first milestone, describe what your project is and how you plan to build it. You can include:
-- An explanation about the different components of your project and how they will all integrate together
-- Technical progress you've made so far
-- Challenges you're facing and solving in your future milestones
-- What your plan is to complete your project
 
 # Starter Milestone
 
