@@ -7,7 +7,6 @@ Let's say you want to buy and play with a robot or a mini tank. However, you fin
 ```
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
-|:--:|:--:|:--:|:--:|
 | Felix Z. | Army and Navy Academy| Electrical/Mechanical engineering | Incoming Senior
 ![Headstone Image](D28FBE34-1A62-4551-853B-4087D1F8ED1B.heic)
 
@@ -65,9 +64,7 @@ void loop() {
 }
 ```
 
-# Bill of Materials
-Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
-Don't forget to place the link of where to buy each component inside the quotation marks in the corresponding row after href =. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize this to your project needs. 
+# Bill of Materials 
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
