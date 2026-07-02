@@ -67,7 +67,6 @@ void loop() {
 # Bill of Materials 
 
 | **Part** | **Note** | **Price** | **Link** |
-|:--:|:--:|:--:|:--:|
 | Keyestudio V4.0 Development Board | the brain for my project and is used to read info from inputs and control outputs| $9.99 | <a href="[https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/](https://www.amazon.com/KEYESTUDIO-Development-Board-ATmega328P-Arduino/dp/B08H1RB61B)"> Link </a> |
 | Tracks and gears | Used for my Mini Tank project to move around| N/A | <a href="N/A"> Link </a> |
 | 2.0*40mm Screwdrivers | Used to screw the screws in| $10.30| <a href="(https://www.amazon.com/Wera-05117993001-Kraftform-Electronics-Screwdriver/dp/B003ES5LXG/ref=sr_1_10?dib=eyJ2IjoiMSJ9.M3kTZ0cjqcGZU56GhY8kLT5sXT3w370g8r0qox4-Hw0Rmxi8QkUowFnxsdjay8gObMsOWrB4pXtdPaQANWv90wNTufMOWeC1UgmZXWQzWmN85yb_PtKAM0VLyHH9-SMIH9B0zGucW1RVbssVKtMk998pNBD3HBOpMUFZN_8HoILHbYRM-vy2zta1MxMnA42LOParGTsoj_C5riU4MsvT6-Nd6ZyxYz2EguESBc1lpZzHOrynZwqIK33sQB7oB7Q_UxFHXPBywFqH8Zdj9SgYwdlW2p3FZRG58Px3y3LcYUs.j8-ef83Ri20e5YS-xNq6PiLjlepOOZvt7kDO_MNJrL8&dib_tag=se&keywords=Screwdriver%2Bprecision%2Bslotted%2B2%2B0x40mm%2BNEO&qid=1783011154&sr=8-10&th=1)"> Link </a> |
