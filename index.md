@@ -1,6 +1,5 @@
 # Bluestamp Robot Project
-Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.
-You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
+Let's say you want to buy and play with a robot or a mini tank. However, you find out that either they are sold out or out of your price range and there is no way you can get one from any store or online ordering site. This project that is shown contains all the necessary components and parts that will make your day and let you have all the fun and adventure you want.
 
 ```HTML 
 <!--- This is an HTML comment in Markdown -->
@@ -10,14 +9,15 @@ You should comment out all portions of your portfolio that you have not complete
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
 | Felix Z. | Army and Navy Academy| Electrical/Mechanical engineering | Incoming Senior
-![Headstone Image](771FCB59-01D3-44EE-8032-A09428D2C3C2.jpeg)
-  
+![Headstone Image]()
+
+<!--
 For your final milestone, explain the outcome of your project. Key details to include are:
 - What you've accomplished since your previous milestone
 - What your biggest challenges and triumphs were at BSE
 - A summary of key topics you learned about
 - What you hope to learn in the future after everything you've learned at BSE
-
+--!>
 
 <!--
 # Second Milestone
