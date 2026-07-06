@@ -9,7 +9,7 @@ Let's say you want to buy and play with a robot or a mini tank. However, you fin
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 | Felix Z. | Army and Navy Academy| Electrical/Mechanical engineering | Incoming Senior |
 
-![Headstone Image](Pasted Graphic 2.tiff)
+![Headstone Image](771FCB59-01D3-44EE-8032-A09428D2C3C2.jpeg)
 
 <!--
 For your final milestone, explain the outcome of your project. Key details to include are:
