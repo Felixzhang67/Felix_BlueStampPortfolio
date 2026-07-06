@@ -7,7 +7,8 @@ Let's say you want to buy and play with a robot or a mini tank. However, you fin
 ```
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
-| Felix Z. | Army and Navy Academy| Electrical/Mechanical engineering | Incoming Senior
+| Felix Z. | Army and Navy Academy| Electrical/Mechanical engineering | Incoming Senior |
+
 ![Headstone Image](Pasted Graphic 2.tiff)
 
 <!--
