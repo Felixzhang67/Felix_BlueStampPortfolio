@@ -1,10 +1,6 @@
 # Bluestamp Robot Project
 Let's say you want to buy and play with a robot or a mini tank. However, you find out that either they are sold out or out of your price range and there is no way you can get one from any store or online ordering site. This project that is shown contains all the necessary components and parts that will make your day and let you have all the fun and adventure you want.
 
-```HTML 
-<!--- This is an HTML comment in Markdown -->
-<!--- Anything between these symbols will not render on the published site -->
-```
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 | Felix Z. | Army and Navy Academy| Electrical/Mechanical engineering | Incoming Senior |
@@ -46,6 +42,7 @@ For your second milestone, explain what you've worked on since your previous mil
 
 Hi, my name is Felix Zhang. My starter project is the Mini Retro Arcade Game. How it works is you press the red button to turn it on. The blue buttons on the bottom left corner are the up, down, left, and right directions. The green and yellow buttons are there to help with other stuff like pausing and etc. When you turn it on, there are different versions of games similar to tetris that you can play. Some technical challenges I faced were soldering since it was my first time doing it. I was able to figure it out and finish it. 
 
+<!--
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
 
@@ -63,7 +60,7 @@ void loop() {
   // put your main code here, to run repeatedly:
 
 }
-```
+-->
 
 # Bill of Materials 
 
