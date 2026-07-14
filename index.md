@@ -32,7 +32,13 @@ For your second milestone, explain what you've worked on since your previous mil
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZyAID4YIRaw?si=O3ZKyHvGhi6gX8Qo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
- This is my first milestone for my mini tank project. I was able to successfully finish building my project and figured out how to build each part of the mini tank. The wires are connected to the main board to the motors, battery, and sensors so when I put the code in they will deliver that command. The tracks are the robots main method of movement and the sensor is able to detect any obstacle. Some challenges I faced is building the bottom half of the robot which are the tracks. I struggled how to put some of the pieces together but was able to figure it out. Another challenge was the eyes, which I took a bit to figure it out and also the placement of the wiring, which was also hard because you have to know which wire goes to where. In my next milestone, I am going to take on the coding for my main project and work on it until it can run properly.
+Introduction: This is my first milestone for my mini tank project, which is building each part of the project like the tracks, main body, wiring, and main board.
+ 
+Successes: I was able to successfully finish building my project. I was able to screw together everything in place and was able to catch any building errors like loose screws and wrong placements of nuts and bolts.
+
+Challenges: Some challenges I faced is building the bottom half of the robot which are the tracks. I struggled how to put some of the pieces together, like putting the tracks around the gear and screwing in the bolts to put together the two tracks because of the placement and size. Another challenge was the placement of the wires, which was confusing since there were a bunch of them here and there and it was difficult following which wire is correctly supposed to go to there.
+ 
+Future Goals: In my future milestones, I am going to take on the coding for my main project and work on it until it can run properly and upload to my project, which will hopefully be able to work as intended.
 
 
 # Starter Milestone
