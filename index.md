@@ -7,7 +7,7 @@ Let's say you want to buy and play with a robot or a mini tank. However, you fin
 
 ![Headstone Image](07568605-6E82-4C82-BC6C-A210968218B9_1_105_c.jpeg)
 
-<!--
+
 For your final milestone, explain the outcome of your project. Key details to include are:
 - What you've accomplished since your previous milestone
 - What your biggest challenges and triumphs were at BSE
@@ -15,19 +15,20 @@ For your final milestone, explain the outcome of your project. Key details to in
 - What you hope to learn in the future after everything you've learned at BSE
 --!>
 
-<!--
+
 # Second Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
-- Technical details of what you've accomplished and how they contribute to the final goal
-- What has been surprising about the project so far
-- Previous challenges you faced that you overcame
-- What needs to be completed before your final milestone 
--->
+Introduction: This is my second milestone. For my second milestone, I worked on my basic movement code for my mini tank project which was making the tracks move forwars, backwards, and also to turn around and move left and right
+
+Successes: The code was able to successfully upload and run as expected. The mini tank robot was also able to read the programming and follow the coding instructions to move forwards and backwards
+
+Challenges: Some challenges I faced were mostly Complication errors and uploading issues. For instance, some of the errors I recieved were mostly brackets that were missing from the code or an extra copy of a code that is not supposed to be there. Another error I faced was also not declaring a line of code that was not previously declared. I also did experience some uploading issues. For example, when uploading my finished code it was not able to upload and the issue was the microcontroller was heating up a little bit.
+
+Future Goals: In the next week, I will work on putting other important lines of code into my Arduino IDE and my bluetooth module code so I could control my project with the IR sensor remote. This will also be my 3rd mileston and if time allows I will also work on modifications.
+
 # First Milestone
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZyAID4YIRaw?si=O3ZKyHvGhi6gX8Qo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
