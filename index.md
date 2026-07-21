@@ -7,20 +7,21 @@ Let's say you want to buy and play with a robot or a mini tank. However, you fin
 
 ![Headstone Image](07568605-6E82-4C82-BC6C-A210968218B9_1_105_c.jpeg)
 
-
+<!--
 For your final milestone, explain the outcome of your project. Key details to include are:
 - What you've accomplished since your previous milestone
 - What your biggest challenges and triumphs were at BSE
 - A summary of key topics you learned about
 - What you hope to learn in the future after everything you've learned at BSE
---!>
+
+-->!
 
 
 # Second Milestone
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qdJSDtxgtMA?si=9tu74roJGp_QFAGp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-Introduction: This is my second milestone. For my second milestone, I worked on my basic movement code for my mini tank project which was making the tracks move forwars, backwards, and also to turn around and move left and right
+Introduction: This is my second milestone. For my second milestone, I worked on my basic movement code for my mini tank project which was making the tracks move forwards, backwards, and also to turn around and move left and right
 
 Successes: The code was able to successfully upload and run as expected. The mini tank robot was also able to read the programming and follow the coding instructions to move forwards and backwards
 
