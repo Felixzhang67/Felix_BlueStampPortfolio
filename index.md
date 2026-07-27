@@ -7,14 +7,27 @@ Let's say you want to buy and play with a robot or a mini tank. However, you fin
 
 ![Headstone Image](07568605-6E82-4C82-BC6C-A210968218B9_1_105_c.jpeg)
 
-<!--
+
+# Third Milestone
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sAvNpXg4cZk?si=KJcDt0KYNVU-8vxa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Introduction: This is my third milestone. I was able to control my robot successfully using the IR (Infared) remote and also updated my code in order to accomplish the connection between the Bluetooth module on the mini tank project to my IR remote.
+
+Successes: The mini tank robot was able to move by the IR remote, which was able to connect with the bluetooth module that is on the project. This connection along with the newly updated code allowed my IR remote to move around the robot without just it following only the uploaded base code.
+
+Challenges: A lot of my challenges that I faced were mostly connecting the IR remote to my project. The code for the IR remote that I put in had many complication errors like a line of code was not declared or the lines of code were not closed. Another challenge was trying out the controller. It was difficult to control it at first since there were many connection problems/errors and even when it had a good connection, when pressing the direction buttons it was still difficult to control where I want my project to go.
+
+Future Goals: My last goal is to work on a modification on my mini tank project. The modification is that instead of using my IR Remote, I will instead use my phone as the controller instead. This way, I don't have to use my IR remote, which is a bit difficult to use, and can instead use my phone as an easier alternative controller.
+
+Conclusion: My biggest challenges at BSE were mostly the coding part of BSE. It gave me the biggest challenge since I had to fix through many coding errors and even also building issues like loose screws, figuring out the placement of the wires, and building the bottom half of the mini tank robot. I learned many important topics at BSE but the most important ones I think I learned here is mechanical engineering (how to build stuff) and a introduction and depth into the world of coding. In the future after BSE, I hope I can learn more about the field of engineering, like how other parts work and learn more about how coding works for different things and dive more into the world of coding.
+
 For your final milestone, explain the outcome of your project. Key details to include are:
 - What you've accomplished since your previous milestone
 - What your biggest challenges and triumphs were at BSE
 - A summary of key topics you learned about
 - What you hope to learn in the future after everything you've learned at BSE
 
--->!
 
 
 # Second Milestone
