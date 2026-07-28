@@ -58,24 +58,213 @@ Future Goals: In my future milestones, I am going to take on the coding for my m
 Hi, my name is Felix Zhang. My starter project is the Mini Retro Arcade Game. How it works is you press the red button to turn it on. The blue buttons on the bottom left corner are the up, down, left, and right directions. The green and yellow buttons are there to help with other stuff like pausing and etc. When you turn it on, there are different versions of games similar to tetris that you can play. Some technical challenges I faced were soldering since it was my first time doing it. I was able to figure it out and finish it. 
 
 <!--
+
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
 
+-->!
+
 # Code
-Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
-```c++
-void setup() {
-  // put your setup code here, to run once:
+ keyestudio Robot Car v2.0
+ lesson 14.2
+ bluetooth car
+ http://www.keyestudio.com
+*/
+
+//Array, used to store the data of pattern, can be calculated by yourself or obtained from the modulus tool
+unsigned char start01[] = {0x01,0x02,0x04,0x08,0x10,0x20,0x40,0x80,0x80,0x40,0x20,0x10,0x08,0x04,0x02,0x01};
+unsigned char front[] = {0x00,0x00,0x00,0x00,0x00,0x24,0x12,0x09,0x12,0x24,0x00,0x00,0x00,0x00,0x00,0x00};
+unsigned char back[] = {0x00,0x00,0x00,0x00,0x00,0x24,0x48,0x90,0x48,0x24,0x00,0x00,0x00,0x00,0x00,0x00};
+unsigned char left[] = {0x00,0x00,0x00,0x00,0x00,0x00,0x44,0x28,0x10,0x44,0x28,0x10,0x44,0x28,0x10,0x00};
+unsigned char right[] = {0x00,0x10,0x28,0x44,0x10,0x28,0x44,0x10,0x28,0x44,0x00,0x00,0x00,0x00,0x00,0x00};
+unsigned char STOP01[] = {0x2E,0x2A,0x3A,0x00,0x02,0x3E,0x02,0x00,0x3E,0x22,0x3E,0x00,0x3E,0x0A,0x0E,0x00};
+unsigned char clear[] = {0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00};
+#define SCL_Pin  A5  //Set clock pin to A5
+#define SDA_Pin  A4  //Set data pin to A4
+
+// L9110 Motor Driver Pins
+#define A_1A 13  // Motor A - Pin 1 (Not PWM)
+#define A_1B 12  // Motor A - Pin 2 (Not PWM)
+#define B_1A 11  // Motor B - Pin 1 (PWM Capable)
+#define B_1B 3   // Motor B - Pin 2 (PWM Capable)
+
+char bluetooth_val; //save the value of Bluetooth reception
+
+/*************the function to run motor**************/
+void Car_front()
+{
+   digitalWrite(A_1A, HIGH);
+  digitalWrite(A_1B, LOW);
+ 
+  analogWrite(B_1A, 255); // Max speed to match Motor A
+  analogWrite(B_1B, 0);
+}
+void Car_back()
+{
+   digitalWrite(A_1A, LOW);
+  digitalWrite(A_1B, HIGH);
+ 
+  analogWrite(B_1A, 0);
+  analogWrite(B_1B, 255);
+}
+void Car_left()
+{
+    digitalWrite(A_1A, HIGH);
+  digitalWrite(A_1B, LOW);
+ 
+  analogWrite(B_1A, 0);
+  analogWrite(B_1B, 255);
+}
+void Car_right()
+{
+    digitalWrite(A_1A, LOW);
+  digitalWrite(A_1B, HIGH);
+ 
+  analogWrite(B_1A, 255);
+  analogWrite(B_1B, 0);
+}
+void Car_Stop()
+{
+digitalWrite(A_1A, LOW);
+  digitalWrite(A_1B, LOW);
+ 
+  analogWrite(B_1A, 0);
+  analogWrite(B_1B, 0);
+}
+
+// Gentle turning (T_left / T_right) works best with speed control.
+// Since pins 12/13 can't do speed control, we'll pivot on one wheel instead.
+void Car_T_left()
+{
+  // Motor A forward, Motor B stopped
+  digitalWrite(A_1A, HIGH);
+  digitalWrite(A_1B, LOW);
+ 
+  analogWrite(B_1A, 0);
+  analogWrite(B_1B, 0);
+}
+
+void Car_T_right()
+{
+  // Motor A stopped, Motor B forward
+  digitalWrite(A_1A, LOW);
+  digitalWrite(A_1B, LOW);
+ 
+  analogWrite(B_1A, 255);
+  analogWrite(B_1B, 0);
+}
+ //****************************************************************
+
+
+void setup(){
   Serial.begin(9600);
-  Serial.println("Hello World!");
+  
+  pinMode(SCL_Pin,OUTPUT);
+  pinMode(SDA_Pin,OUTPUT);
+  matrix_display(clear);    //Clear the display
+  matrix_display(start01);  //display start pattern
+
+  // Set L9110 pins to outputs
+  pinMode(A_1A, OUTPUT);
+  pinMode(A_1B, OUTPUT);
+  pinMode(B_1A, OUTPUT);
+  pinMode(B_1B, OUTPUT);
 }
 
-void loop() {
-  // put your main code here, to run repeatedly:
-
+void loop(){
+  if (Serial.available())
+  {
+    bluetooth_val = Serial.read();
+    Serial.println(bluetooth_val);
+  }
+  switch (bluetooth_val) 
+  {
+     case 'F':  //forward command
+        Car_front();
+        matrix_display(front);  // show forward design
+        break;
+     case 'B':  //Back command
+        Car_back();
+        matrix_display(back);  //show back pattern
+        break;
+     case 'L':  // left-turning instruction
+        Car_left();
+        matrix_display(left);  //show “left-turning” sign 
+        break;
+     case 'R':  //right-turning instruction
+        Car_right();
+        matrix_display(right);  //display right-turning sign
+       break;
+     case 'S':  //stop command
+        Car_Stop();
+        matrix_display(STOP01);  //show stop picture
+        break;
+  }
 }
--->
+
+/**************The function of dot matrix****************/
+//this function is used for dot matrix display
+void matrix_display(unsigned char matrix_value[])
+{
+  IIC_start();
+  IIC_send(0xc0);  //Choose address
+  
+  for(int i = 0;i < 16;i++) //pattern data has 16 bits
+  {
+     IIC_send(matrix_value[i]); //data to convey patterns
+  }
+  IIC_end();   //end to convey data pattern
+  
+  IIC_start();
+  IIC_send(0x8A);  //display control, set pulse width to 4/16
+  IIC_end();
+}
+//The condition starting to transmit data
+void IIC_start()
+{
+  digitalWrite(SCL_Pin,HIGH);
+  delayMicroseconds(3);
+  digitalWrite(SDA_Pin,HIGH);
+  delayMicroseconds(3);
+  digitalWrite(SDA_Pin,LOW);
+  delayMicroseconds(3);
+}
+//transmit data
+void IIC_send(unsigned char send_data)
+{
+  for(char i = 0;i < 8;i++)  //Each byte has 8 bits
+  {
+      digitalWrite(SCL_Pin,LOW);  //pull down clock pin SCL Pin to change the signals of SDA      
+      delayMicroseconds(3);
+      if(send_data & 0x01)  //set high and low level of SDA_Pin according to 1 or 0 of every bit
+      {
+        digitalWrite(SDA_Pin,HIGH);
+      }
+      else
+      {
+        digitalWrite(SDA_Pin,LOW);
+      }
+      delayMicroseconds(3);
+      digitalWrite(SCL_Pin,HIGH); //pull up clock pin SCL_Pin to stop transmitting data
+      delayMicroseconds(3);
+      send_data = send_data >> 1;  // Detect bit by bit, so move the data right by one
+  }
+}
+//The sign that data transmission ends
+void IIC_end()
+{
+  digitalWrite(SCL_Pin,LOW);
+  delayMicroseconds(3);
+  digitalWrite(SDA_Pin,LOW);
+  delayMicroseconds(3);
+  digitalWrite(SCL_Pin,HIGH);
+  delayMicroseconds(3);
+  digitalWrite(SDA_Pin,HIGH);
+  delayMicroseconds(3);
+}
+
+
 
 # Bill of Materials 
 
