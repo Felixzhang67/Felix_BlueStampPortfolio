@@ -3,7 +3,7 @@ Let's say you want to buy and play with a robot or a mini tank. However, you fin
 
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
-| Felix Z. | Army and Navy Academy| Electrical/Mechanical engineering | Incoming Senior |
+| Felix Z. | Army and Navy Academy| Mechanical engineering or Law | Incoming Senior |
 
 ![Headstone Image](07568605-6E82-4C82-BC6C-A210968218B9_1_105_c.jpeg)
 
@@ -22,11 +22,6 @@ Future Goals: My last goal is to work on a modification on my mini tank project.
 
 Conclusion: My biggest challenges at BSE were mostly the coding part of BSE. It gave me the biggest challenge since I had to fix through many coding errors and even also building issues like loose screws, figuring out the placement of the wires, and building the bottom half of the mini tank robot. I learned many important topics at BSE but the most important ones I think I learned here is mechanical engineering (how to build stuff) and a introduction and depth into the world of coding. In the future after BSE, I hope I can learn more about the field of engineering, like how other parts work and learn more about how coding works for different things and dive more into the world of coding.
 
-For your final milestone, explain the outcome of your project. Key details to include are:
-- What you've accomplished since your previous milestone
-- What your biggest challenges and triumphs were at BSE
-- A summary of key topics you learned about
-- What you hope to learn in the future after everything you've learned at BSE
 
 
 
