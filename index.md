@@ -8,11 +8,22 @@ Let's say you want to buy and play with a robot or a mini tank. However, you fin
 ![Headstone Image](07568605-6E82-4C82-BC6C-A210968218B9_1_105_c.jpeg)
 
 
+# Modification
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vcndDSUsMCw?si=odYnvSfN3gJAGo7h" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Introduction: This is my modification. I modified my code in order to be able to connect with my phone through an app. This enables me to use my phone as the controller instead of the IR remote.
+
+Successes: I had many successes with this modification. The code that I modified was able to run smoothly with my mini tank project and I was also able to connect my phone with my project using the bluetooth module to the app that I use for the controller. Another success was that it was able to move around more smoothly and I was able to control it more easily than the IR remote.
+
+Challenges: While working on this modification, I didn't face much challenges unlike before in previous milestones. However, I still faced some lines of code that were not declared and when I was testing, there were times where some of the nuts and bolts would come loose like on the screen of the robot. Some other challenges were mostly just loose parts.
+
+
 # Third Milestone
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sAvNpXg4cZk?si=KJcDt0KYNVU-8vxa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-Introduction: This is my third milestone. I was able to control my robot successfully using the IR (Infared) remote and also updated my code in order to accomplish the connection between the Bluetooth module on the mini tank project to my IR remote.
+Introduction: This is my third milestone. I was able to control my robot successfully using the IR remote and also updated my code in order to accomplish the connection between the Bluetooth module on the mini tank project to my IR remote.
 
 Successes: The mini tank robot was able to move by the IR remote, which was able to connect with the bluetooth module that is on the project. This connection along with the newly updated code allowed my IR remote to move around the robot without just it following only the uploaded base code.
 
@@ -282,9 +293,9 @@ void IIC_end()
 
 
 # Other Resources/Examples
-One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
-- [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
-- [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
-- [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
+
+-  [Keyestudio Mini Tank Robot]([https://trashytuber.github.io/YimingJiaBlueStamp/](https://wiki.keyestudio.com/Ks0428_keyestudio_Mini_Tank_Robot_V2))
+-  [Keystudio Mini Tank Robot V2 KS0428: Assembly and Quick Off-Screen Programming]((https://www.youtube.com/watch?v=Dxs980JfxhQ&t=1252s))
+
 
 To watch the BSE tutorial on how to create a portfolio, click here.
