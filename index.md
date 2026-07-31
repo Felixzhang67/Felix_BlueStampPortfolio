@@ -296,6 +296,3 @@ void IIC_end()
 
 -  [Keyestudio Mini Tank Robot]([https://trashytuber.github.io/YimingJiaBlueStamp/](https://wiki.keyestudio.com/Ks0428_keyestudio_Mini_Tank_Robot_V2))
 -  [Keystudio Mini Tank Robot V2 KS0428: Assembly and Quick Off-Screen Programming]((https://www.youtube.com/watch?v=Dxs980JfxhQ&t=1252s))
-
-
-To watch the BSE tutorial on how to create a portfolio, click here.
